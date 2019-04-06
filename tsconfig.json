@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": [
+            "es7",
+            "es2017.object"
+        ],
+        "module": "commonjs",
+        "baseUrl": "./",
+        "paths": {
+            "@src/*": [
+                "src/*"
+            ]
+        },
+        "strictNullChecks": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+    },
+    "include": [
+        "src/**/*.ts",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
